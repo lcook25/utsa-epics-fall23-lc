@@ -2,7 +2,7 @@ import os
 import shutil
 
 def rename_images(folder_path):
-    # Get a list of all files in the folder
+    # Get a list of all files in the folder directory
     files = os.listdir(folder_path)
 
     # Filter only image files (you can modify this condition as needed)
